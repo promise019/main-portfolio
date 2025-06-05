@@ -28,7 +28,7 @@ export default function Projects(){
             <div className="grid space-y-3 lg:grid-cols-2 lg:space-x-4">
             {projects.map((project, index)=>
                 <div key={index}
-                 className="bg-white shadow p-2 rounded-lg space-y-1.5"
+                 className="bg-white shadow p-2 rounded-lg space-y-1.5 hover:bg-gray-100 hover:p-3"
                 >
                     <h2 className="font-bold text-xl">
                         {project.name}
@@ -47,7 +47,7 @@ export default function Projects(){
                     </p>
 
                     <a href={project.link}>
-                        <button className="bg-green-500 rounded-lg text-white font-bold p-1 relative w-[15%]">
+                        <button className="bg-green-500 rounded-lg text-white font-bold p-1 relative w-[15%] hover:bg-green-800">
                             view
                         </button>
                     </a>
