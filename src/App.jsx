@@ -4,7 +4,7 @@ import Contact from "./components/contact";
 import Intro from "./components/Intro";
 import Projects from "./components/projects";
 import Skills from "./components/Skills";
-import cv from "./assets/PromiseCV.pdf";
+// import cv from "./assets/PromiseCV.pdf";
 export default function App() {
   return (
     <div className='p-2 space-y-7 pb-7 md:px-30 xl:px-65'>
@@ -21,7 +21,7 @@ export default function App() {
 function ResumeDownload() {
   function handleDownload() {
     const link = document.createElement("a");
-    link.href = "../assets/PromiseCv.pdf";
+    link.href = "/PromiseCV.pdf";
     link.download = "PromiseCV.pdf";
     link.click();
   }

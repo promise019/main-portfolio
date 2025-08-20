@@ -2,6 +2,8 @@ import tailwindcss from "../assets/icon.png";
 import react from "../assets/react.svg";
 import git from "../assets/git.png";
 import firebase from "../assets/firebase.png";
+import ts from '../assets/Typescript_logo_2020.svg'
+
 export default function Skills() {
   return (
     <div className=''>
@@ -29,6 +31,11 @@ export default function Skills() {
         <div className='inline-block bg-black p-2 rounded-sm'>
           <span className='font-bold text-yellow-300 text-lg'>JS</span>
           <span>JavaScript</span>
+        </div>
+
+        <div className='inline-block bg-black p-2 rounded-sm'>
+          <img src={ts} className='w-6 inline-block' />
+          <span>Typescript</span>
         </div>
 
         <div className='inline-block bg-black p-2 rounded-sm'>

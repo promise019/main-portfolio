@@ -1,8 +1,17 @@
 import eCommerce from "../assets/commerce.png";
 import studyverse from "../assets/studyverse.png";
 import streamer from "../assets/streamer.png";
+import b2trendz from "../assets/b2trendz.png"
 
 const projects = [
+  {
+    name: "B2TRENDZ",
+    link: "https://www.b2trendz.com",
+    intro: "your one-stop entertainment platform",
+    overview:
+      "We create meaningful experiences through innovative content and technology, bringing the best entertainment to our users worldwide.",
+    image: b2trendz,
+  },
   {
     name: "Real E-commerce (JUMIA)",
     link: "https://real-e-commerce-ashy.vercel.app",
@@ -39,7 +48,7 @@ export default function Projects() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className='bg-black text-white shadow p-2 rounded-lg space-y-1.5 hover:bg-gray-100 hover:p-3'
+            className='bg-black text-white shadow p-2 rounded-lg space-y-1.5 hover:bg-gray-700 hover:p-3'
           >
             <img src={project?.image} className='rounded-lg' />
             <h2 className='font-bold text-xl'>{project.name}</h2>
