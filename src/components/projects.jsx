@@ -2,8 +2,17 @@ import eCommerce from "../assets/commerce.png";
 import studyverse from "../assets/studyverse.png";
 import streamer from "../assets/streamer.png";
 import b2trendz from "../assets/b2trendz.png"
+import kinnex from '../assets/kinnex.png'
 
 const projects = [
+  {
+    name: "Kinnex LTD",
+    link: "https://www.kinnexx.com.ng",
+    intro: "Smart investment for your financial future",
+    overview:
+      "Kinnex LTD. offers strategic investment solutions tailored to your financial goals with proven results and expert guardians",
+    image: kinnex,
+  },
   {
     name: "B2TRENDZ",
     link: "https://www.b2trendz.com",
